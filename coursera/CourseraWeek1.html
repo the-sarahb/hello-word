@@ -3,6 +3,29 @@
 <head>
 	<meta charset = "utf-8">
 	<title>Coursera XML Lesson!</title>
+	<style>
+p  {
+  color: blue;
+  font-size: 20px;
+  width: 200px;
+}
+h1 {
+  color: green;
+  font-size: 36px;
+  text-align: center;
+}
+.namelink {color:red;}
+
+section>p>a:link, section>p>a:visited {text-decoration: none; background-color: red; }
+section>p>a:hover, section>p>a:active {text-decoration: none; background-color: black; }
+a:hover, a:active {text-decoration: none; background-color: none; background-color: black; color: green;}
+
+section article:nth-child(2):hover {background-color: gray; cursor: pointer;}
+
+</style>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 	<h1 id="top">Main Header - External Links</h1>
@@ -19,7 +42,7 @@
   	</section>
 	<section id="Section1">
     Section 1
-    <a href="../site/index.html" target="_blank" title="same dir link">Linking to a file in the same directory but different folder</a>
+    <a class = "namelink" href="../site/index.html" target="_blank" title="same dir link">Linking to a file in the same directory but different folder</a>
     <article>Article 1</article>
     <article>Article 2</article>
     <article>Article 3</article>
@@ -39,32 +62,32 @@
 	<section>
     Section 3
     <a href="../site/index.html" title="same dir link">Linking to a file in the same directory but different folder</a>
-    <article>Article 1</article>
-    <article>Article 2</article>
-    <article>Article 3</article>
+    <article>Article 7</article>
+    <article>Article 8</article>
+    <article>Article 9</article>
   	</section>
   	<br>
   	<section>
     Section 4
-    <article>Article 4</article>
-    <article>Article 5</article>
-    <article>Article 6</article>
+    <article>Article 10</article>
+    <article>Article 11</article>
+    <article>Article 12</article>
     <div>Regular DIV element</div>
   	</section>
 	<h3>Subheader3</h3>
 	<section>
     Section 5
     <a href="../site/index.html" title="same dir link">Linking to a file in the same directory but different folder</a>
-    <article>Article 1</article>
-    <article>Article 2</article>
-    <article>Article 3</article>
+    <article>Article 13</article>
+    <article>Article 14</article>
+    <article>Article 15</article>
   	</section>
   	<br>
   	<section>
     Section 6
-    <article>Article 4</article>
-    <article>Article 5</article>
-    <article>Article 6</article>
+    <article>Article 16</article>
+    <article>Article 17</article>
+    <article>Article 18</article>
     <div>Regular DIV element</div>
   	</section>
 	<h4>Subheader4</h4>
