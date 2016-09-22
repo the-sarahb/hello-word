@@ -4,6 +4,43 @@
 	<meta charset = "utf-8">
 	<title>Coursera XML Lesson!</title>
 	<style>
+body {
+  font-size: 120%;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+section article:nth-child(2):hover {background-color: gray; cursor: pointer;}
+
+.style {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0000ff;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px; /* points (pt) are used in print, not screen.*/
+  text-transform: uppercase;
+  text-align: center;  
+}
+
+#bg {background-color: green;
+	width: 400px;
+	border: 20px solid red;
+	padding: 50px;
+}
+
+#box {
+  background-color: blue;
+  padding: 10px;
+  border: 5px solid black;
+  width: 300px;
+  height: 50px;
+  margin-top: 50px;
+  overflow: auto;
+}
+
 p  {
   color: blue;
   font-size: 20px;
@@ -20,7 +57,6 @@ section>p>a:link, section>p>a:visited {text-decoration: none; background-color: 
 section>p>a:hover, section>p>a:active {text-decoration: none; background-color: black; }
 a:hover, a:active {text-decoration: none; background-color: none; background-color: black; color: green;}
 
-section article:nth-child(2):hover {background-color: gray; cursor: pointer;}
 
 </style>
 
@@ -43,8 +79,8 @@ section article:nth-child(2):hover {background-color: gray; cursor: pointer;}
 	<section id="Section1">
     Section 1
     <a class = "namelink" href="../site/index.html" target="_blank" title="same dir link">Linking to a file in the same directory but different folder</a>
-    <article>Article 1</article>
-    <article>Article 2</article>
+    <article  style="font-size: 2em;"">Article 1</article>
+    <article class = "style">Article 2</article>
     <article>Article 3</article>
   	</section>
   	<br>
@@ -59,7 +95,7 @@ section article:nth-child(2):hover {background-color: gray; cursor: pointer;}
     ASIDE - Some information that relates to the main topic, i.e., related posts.
   	</aside>
 	<h2>Subheader2</h2>
-	<section>
+	<section id = "box">
     Section 3
     <a href="../site/index.html" title="same dir link">Linking to a file in the same directory but different folder</a>
     <article>Article 7</article>
@@ -83,7 +119,7 @@ section article:nth-child(2):hover {background-color: gray; cursor: pointer;}
     <article>Article 15</article>
   	</section>
   	<br>
-  	<section>
+  	<section id = "bg">
     Section 6
     <article>Article 16</article>
     <article>Article 17</article>

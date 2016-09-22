@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Floating Elements</title>
+<style>
+
+body{
+  background-color: pink;
+  margin:0;
+  padding:0;
+}
+
+div {
+  box-sizing: border-box;
+  background-color: #00FFFF;
+  color:blue;
+  position:relative;
+ 
+}
+
+p {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+/*  float: left;*/
+  margin-right: 10px;
+}
+
+#p1 {
+  background-color: #A52A2A;
+  float: left;
+}
+#p2 {
+  background-color: #DEB887;
+  float: left;
+  height:100px;
+}
+#p3 {
+  background-color: #5F9EA0;
+  clear:both;
+  float:left;
+}
+#p4 {
+  background-color: #FF7F50;
+  float:left;
+}
+
+
+#section1 {
+  clear: left;
+}
+
+#p5 {
+  background-color: purple;
+  clear:both;
+}
+
+#p6 {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  border: 2px solid black;
+  padding: 2px;
+
+}
+
+#p7 {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  border: 2px solid #00FFFF;
+  padding: 2px;
+}
+
+#p8 {
+/*  box-sizing: border-box;*/
+  clear: both;
+}
+
+#p9 {
+  background-color: orange;
+  clear:both;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  margin: 0;
+  padding:0;
+
+</style>
+</head>
+<body>
+<h1>Floating Elements</h1>
+
+<div>
+  <p id="p1">Box 1</p>
+  <p id="p2">Box 2</p>
+  <p id="p3">Box 3</p>
+  <p id="p4">Box 4</p>
+  <section id="section1">This is regular content continuing after the the paragraph boxes.</section>
+  <p id="p5">Box 5</p>
+  <section id="p6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</section>
+
+  <section id ="p7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</section>
+
+  <section id ="p8">This is regular content continuing after the the paragraph boxes.</section>
+  <p id="p9">Box 6</p>
+</div>
+
+
+</body>
+</html>
